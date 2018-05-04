@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title> Black-Eyed Susies | Thesis 2018 </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../assets/css/now-ui-dashboard.css?v=1.0.1" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../../assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class=" sidebar-mini">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="yellow">
+      <!--
+        Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
+    -->
+      <div class="logo">
+        <a href="http://www.bethkillory.com" class="simple-text logo-mini">
+          BS
+        </a>
+        <a href="#" class="simple-text logo-normal">
+          Black-Eyed <br>Susies
+        </a>
+        <div class="navbar-minimize">
+          <button id="minimizeSidebar" class="btn btn-simple btn-icon btn-neutral btn-round">
+            <i class="now-ui-icons text_align-center visible-on-sidebar-regular"></i>
+            <i class="now-ui-icons design_bullet-list-67 visible-on-sidebar-mini"></i>
+          </button>
+        </div>
+      </div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="photo">
+            <img src="../../assets/img/beth.jpg" />
+          </div>
+          <div class="info">
+            <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+              <span>
+                Beth Killory
+                <b class="caret"></b>
+              </span>
+            </a>
+            <div class="clearfix"></div>
+            <div class="collapse" id="collapseExample">
+              <ul class="nav">
+                <li>
+                  <a href="http://www.bethkillory.com/">
+                    <span class="sidebar-mini-icon">P</span>
+                    <span class="sidebar-normal">Portfolio</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/killorye1">
+                    <span class="sidebar-mini-icon">GH</span>
+                    <span class="sidebar-normal">GitHub</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/beth-killory-46a370126/">
+                    <span class="sidebar-mini-icon">LI</span>
+                    <span class="sidebar-normal">LinkedIn</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="../../examples/dashboard.html">
+              <i class="now-ui-icons design_app"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
+          <li class="active">
+            <a data-toggle="collapse" href="#pagesExamples" aria-expanded="true">
+              <i class="now-ui-icons design_image"></i>
+              <p>
+                Pages
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse  show " id="pagesExamples">
+              <ul class="nav">
+                <li class="active">
+                  <a href="../../examples/pages/timeline.html">
+                    <span class="sidebar-mini-icon">T</span>
+                    <span class="sidebar-normal"> Timeline </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/login.html">
+                    <span class="sidebar-mini-icon">L</span>
+                    <span class="sidebar-normal"> Login </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/register.html">
+                    <span class="sidebar-mini-icon">R</span>
+                    <span class="sidebar-normal"> Register </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/pages/user.html">
+                    <span class="sidebar-mini-icon">UP</span>
+                    <span class="sidebar-normal"> User Profile </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" href="#mapsExamples">
+              <i class="now-ui-icons location_pin"></i>
+              <p>
+                Maps
+                <b class="caret"></b>
+              </p>
+            </a>
+            <div class="collapse " id="mapsExamples">
+              <ul class="nav">
+                <li>
+                  <a href="../../examples/maps/google.html">
+                    <span class="sidebar-mini-icon">GM</span>
+                    <span class="sidebar-normal"> Google Maps </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/maps/fullscreen.html">
+                    <span class="sidebar-mini-icon">FM</span>
+                    <span class="sidebar-normal"> Full Screen Map </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="../../examples/maps/vector.html">
+                    <span class="sidebar-mini-icon">VM</span>
+                    <span class="sidebar-normal"> Vector Map </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="../../examples/calendar.html">
+              <i class="now-ui-icons media-1_album"></i>
+              <p>Calendar</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute bg-primary fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo">Timeline</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="../dashboard.html" class="nav-link">
+                  <i class="now-ui-icons design_app"></i> Dashboard
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="register.html" class="nav-link">
+                  <i class="now-ui-icons tech_mobile"></i> Register
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a href="login.html" class="nav-link">
+                  <i class="now-ui-icons users_circle-08"></i> Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+       <div class="panel-header panel-header-sm">
+      </div>
+      <div class="content">
+        <br>
+       <h3 class="title mt-4 text-center">Black-Eyed Susies</h3>
+<!--        <div class="card">
+          <div class="card-header">
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Mission Statement</h3>
+                <p>Black-Eyed Susies explores the culture of rock climbing from the perspective of a woman. Climbing is a male dominated area, as are most sports. It can be intimidating for young girls and women to partake in something if it seems like a boys club.</p>
+              </div>
+              <div class="col-sm-6">
+                <h3>Reaching New Heights</h3>
+                <p>I conducted interviews with female climbers to learn about their personal experiences participating in this activity. I wanted to find women of various backgrounds to see how that affects their understanding of climbing.</p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>What's The Point?</h3>
+                <p>This is a showcase of women’s achievements in rock climbing. The goal of this is to provide role models to encourage more women and girls to get into rock climbing, feel empowered, and raise awareness on inequity in the sport.
+                </p>
+              </div>
+              <div class="col-sm-8">
+                <h3>Behind The Name</h3>
+                <p>When I drive past fields of Black-Eyed Susans, their stems intertwined to keep each other from falling in the autumn wind, I am reminded of the importance of support and strength between women. This flower is stunning in domesticated flowerbeds as well as growing wild in a field awash with their flowers of bright, yellow petals contrasted against the dark chocolate conical center. The Black-Eyed Susie is a plant that is determined to survive and bloom no matter where it is planted, serving as a powerful symbol of encouragement.</p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      <div class="content">
+        <div class="header text-center">
+          <h3 class="title">A Timeline of Women & Mountaineering</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-timeline card-plain">
+              <div class="card-body">
+                <ul class="timeline">
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">1799 Parminter Women</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>Jane Parminter, her sister, Elizabeth, her cousin Mary's ascent of Mont Buet in the Alps was the first record of women mountaineers. This event was recorded in two publications and represented a massive achievement. Mont Buet reaches a height of 3096 metres. The three Parminter ladies are now recognised as the first women to reach any alpine summit over 3000 metres. Mont Buet has been long been known affectionately as “Parminter Peak".
+                      </p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> nationaltrust.org.uk
+                      </h6>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge success">
+                      <i class="now-ui-icons location_bookmark"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-success">1848 Women's Suffrage
+                          </span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>A women’s rights convention was held in Seneca Falls, New York. The Seneca Falls meeting was not the first in support of women’s rights, but suffragists later viewed it as the meeting that launched the suffrage movement.</p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> nwhm.org
+                      </h6>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">1871 The Matterhorn</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>In 1871 she learned that her rival Meta Brevoort, an American female mountaineer, was planning an expedition to climb the Matterhorn. Walker hastily assembled a group and on 22 August, while wearing a white print dress, she became the first woman to stand atop the Matterhorn, and with it gained world renown.
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="timeline-footer">
+                        <div class="dropdown">
+                          <button type="button" class="btn btn-round btn-info dropdown-toggle" data-toggle="dropdown">
+                            <i class="now-ui-icons design_bullet-list-67"></i>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </div>
+                        <h6>
+                           <i class="ti-time"></i> britainexpress.com
+                         </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge warning">
+                      <i class="now-ui-icons business_bulb-63"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-warning">1900's New Tech</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>Various technical developments over the upcoming decades led to far greater possibilities.</p>
+                        <div class="card-body ">
+                         <div class="row">
+                  <div class="col-md-4">
+                    <ul class="nav nav-pills nav-pills-primary flex-column" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#link4" role="tablist">
+                          Piton
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#link5" role="tablist">
+                          Carabiner
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#link6" role="tablist">
+                          Nylon
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="link4">
+                        Created in the 1910's, a piton is a steel wedge that is hammered into a crack in the rock to secure a rope for climbing.
+                        <br>
+                        <br> They were used as the main method of protection in mountaineering until the 1970s when modern forms of climbing protection and the "clean climbing" ethic became popular.
+                      </div>
+                      <div class="tab-pane" id="link5">
+                        An oblong metal ring with one spring-hinged side that is used especially in mountain climbing as a connector and to hold a freely running rope.
+                        <br>
+                        <br>The word carabiner actually originates from a German term that emerged at some point between the 1920s and the 1930s. That term is Karabinerhaken. The most literal translation of Karabinerhaken is "carabineer's hook." A carabineer was a type of soldier in France starting in the 1600's.
+                      </div>
+                      <div class="tab-pane" id="link6">
+                        Nylon was patented in 1935 and was first used in climbing rope in America in the early 1940s. The first nylon climbing rope made its way to Europe in 1949.
+                        <br>
+                        <br>This was a key factor in rock climbing
+                        emerging as a sport and the benefits were instantly apparent. The nylon ropes were more
+                        elastic, aiding in fall protection
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-timeline card-plain">
+              <div class="card-body">
+                <ul class="timeline">
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">1940's Bonnie Prudden</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>Prudden was a pioneer of the Shawangunk Mountains in New Paltz, NY. She put up roughly 30 first ascents in the Shawangunk Ridge, including Bonnie’s Roof, Wrist and The Brat. After giving up climbing she went on to create the presidential fitness program.
+                      </p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> Meghan Walsh
+                      </h6>
+                    </div>
+                  </li>
+              
+                <li>
+                    <div class="timeline-badge success">
+                      <i class="now-ui-icons location_bookmark"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-success"> 1972 Title IX
+                          </span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance.</p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> 
+                      </h6>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">1960's The Feminine Mystique</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                          Betty Friedan’s book inspired thousands of women to find fulfillment beyond the role of housewife. Until its release, women spent 55 hours per week on domestic duties, and less than 10% of all doctors and engineers were women. The women who pursued climbing were on the fringe of society. They rejected cultural norms and pursued their own sense of purpose.
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="timeline-footer">
+                        <div class="dropdown">
+                          <button type="button" class="btn btn-round btn-info dropdown-toggle" data-toggle="dropdown">
+                            <i class="now-ui-icons design_bullet-list-67"></i>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </div>
+                        <h6>
+                           <i class="ti-time"></i> britainexpress.com
+                         </h6>
+                      </div>
+                    </div>
+                  </li>
+             <li>
+                    <div class="timeline-badge warning">
+                      <i class="now-ui-icons business_bulb-63"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-warning"> 1980's Sport Climbing
+                          </span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>A form of rock climbing that gained traction in the 80's. It relies on permanent anchors fixed to the rock for protection. This is in contrast to traditional climbing where climbers must place removable protection as they climb. Lynn Hill was one of the best, if not the best, sport climber during this period</p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> 
+                      </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card card-timeline card-plain">
+              <div class="card-body">
+                <ul class="timeline">
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">1993 The Nose</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>The Nose is one of the original technical climbing routes up El Capitan. It was once considered impossible to climb. In 1993, together with her partner Brooke Sandahl, she became the first person, male or female, to free climb the route.[60] Hill's original climbing grade for the "Free Nose" was 5.13b.
+                      </p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> Meghan Walsh
+                      </h6>
+                    </div>
+                  </li>
+              
+                <li>
+                    <div class="timeline-badge warning">
+                      <i class="now-ui-icons business_bulb-63"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-warning"> 2000's Climbing Gyms
+                          </span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>For those who don’t have easy access to an outdoor climbing area, indoor rock climbing gives them the next best thing, substituting hand and foot holds for the nooks and crannies found on the sides of an outdoor crag. The sport is now easier to enter for those that can't access technical gear.</p>
+                      </div>
+                      <h6>
+                        <i class="ti-time"></i> 
+                      </h6>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge danger">
+                      <i class="now-ui-icons design_image"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <span class="badge badge-danger">2016 Ashima Shiraishi</span>
+                      </div>
+                      <div class="timeline-body">
+                        <p>
+                         A child prodigy, Ashima Shirashi began climbing in 2007. On her 15th birthday in 2016, she flashed the hardest route ever climbed by mankind: the V15 Horizon on Japan’s Mount Hiei. Time magazine called her one of the Most Influential Teens of 2015.
+                        </p>
+                        <hr>
+                      </div>
+                      <div class="timeline-footer">
+                        <div class="dropdown">
+                          <button type="button" class="btn btn-round btn-info dropdown-toggle" data-toggle="dropdown">
+                            <i class="now-ui-icons design_bullet-list-67"></i>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </div>
+                        <h6>
+                           <i class="ti-time"></i> britainexpress.com
+                         </h6>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+           <footer class="footer">
+        <div class="container-fluid">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.creative-tim.com">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="www.linkedin.com/in/beth-killory-46a370126">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/killorye1">
+                  Github
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear())
+            </script>, Designed by & Coded by
+            <a href="https://www.bethkillory.com" target="_blank">Beth Killory</a>.
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+<!--   Core JS Files   -->
+<script src="../../assets/js/core/jquery.min.js"></script>
+<script src="../../assets/js/core/popper.min.js"></script>
+<script src="../../assets/js/core/bootstrap.min.js"></script>
+<script src="../../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<script src="../../assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../../assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for Sweet Alert -->
+<script src="../../assets/js/plugins/sweetalert2.min.js"></script>
+<!-- Forms Validations Plugin -->
+<script src="../../assets/js/plugins/jquery.validate.min.js"></script>
+<!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+<script src="../../assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="../../assets/js/plugins/bootstrap-selectpicker.js"></script>
+<!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+<script src="../../assets/js/plugins/bootstrap-datetimepicker.js"></script>
+<!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
+<script src="../../assets/js/plugins/jquery.dataTables.min.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="../../assets/js/plugins/bootstrap-tagsinput.js"></script>
+<!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="../../assets/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
+<script src="../../assets/js/plugins/fullcalendar.min.js"></script>
+<!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+<script src="../../assets/js/plugins/jquery-jvectormap.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="../../assets/js/plugins/nouislider.min.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRC4KsS6L-Ql-kQmh3MppHW3I317FiLg0
+"></script>
+<!-- Chart JS -->
+<script src="../../assets/js/plugins/chartjs.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="../../assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="../../assets/js/now-ui-dashboard.js?v=1.0.1"></script>
+<!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+<script src="../../assets/demo/demo.js"></script>
+<script>
+  $(document).ready(function() {
+    demo.checkFullPageBackgroundImage();
+  });
+</script>
+
+</html>

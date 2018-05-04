@@ -752,7 +752,7 @@ demo = {
           data: {
               labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
               datasets: [{
-                  label: "Active Users",
+                  label: "Days",
                   borderColor: "#f96332",
                   pointBorderColor: "#FFF",
                   pointBackgroundColor: "#f96332",
@@ -763,7 +763,7 @@ demo = {
                   fill: true,
                   backgroundColor: gradientFill,
                   borderWidth: 2,
-                  data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630]
+                  data: [2, 3, 3, 10, 13, 7, 10, 20, 28, 32, 7, 3]
               }]
           },
           options: gradientChartOptionsConfiguration
@@ -783,9 +783,9 @@ demo = {
       myChart = new Chart(ctx, {
           type: 'line',
           data: {
-              labels: ["12pm,", "3pm", "6pm", "9pm", "12am", "3am", "6am", "9am"],
+              labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
               datasets: [{
-                  label: "Email Stats",
+                  label: "Average Grade",
                   borderColor: "#18ce0f",
                   pointBorderColor: "#FFF",
                   pointBackgroundColor: "#18ce0f",
@@ -796,7 +796,7 @@ demo = {
                   fill: true,
                   backgroundColor: gradientFill,
                   borderWidth: 2,
-                  data: [40, 500, 650, 700, 1200, 1250, 1300, 1900]
+                  data: [5.2, 5.4, 5.6, 5.6, 5.7, 5.9, 5.9, 5.8]
               }]
           },
           options: gradientChartOptionsConfiguration

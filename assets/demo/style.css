@@ -1,11 +1,6 @@
 .content {
   background-image: url("../../assets/img/bg.jpg");
 }
-.title {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 72px;
-  text-transform: uppercase;
-}
 .light {
   color:white;
 }
@@ -56,6 +51,8 @@
   z-index: 1;
 }
 
+/* my styles */
+
 #map {
   position: relative;
   width: 100%;
@@ -64,4 +61,19 @@
 .Layer_1 {
   width: 20px;
   height: 20px;
+}
+.timeline {
+  color: black;
+}
+.subtitle {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: '400';
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 3vw;
+}
+.title {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 8vw;
+  text-transform: uppercase;
 }

@@ -657,9 +657,9 @@ demo = {
       var myChart = new Chart(ctx, {
           type: 'line',
           data: {
-              labels: ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"],
+              labels: ["1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1945", "1946", "1947","1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958"],
               datasets: [{
-                  label: "Data",
+                  label: "Diary Entries",
                   borderColor: chartColor,
                   pointBorderColor: chartColor,
                   pointBackgroundColor: "#1e3d60",
@@ -672,7 +672,7 @@ demo = {
                   fill: true,
                   backgroundColor: gradientFill,
                   borderWidth: 2,
-                  data: [50, 150, 100, 190, 130, 90, 150, 160, 120, 140, 190, 95]
+                  data: [1, 2, 1, 1, 2, 1, 2, 1, 2, 2, 3, 3, 6, 13, 10, 10, 7, 12, 15, 16, 18, 19, 20, 8, 21, 10]
               }]
           },
           options: {

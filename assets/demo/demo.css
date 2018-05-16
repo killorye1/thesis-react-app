@@ -1,3 +1,14 @@
+.content {
+  background-image: url("../../assets/img/bg.jpg");
+}
+.title {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+.light {
+  color:white;
+}
 .tim-row{
     margin-bottom: 20px;
 }

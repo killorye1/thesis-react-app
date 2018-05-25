@@ -750,9 +750,10 @@ demo = {
       myChart = new Chart(ctx, {
           type: 'line',
           data: {
-              labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+              labels: ["1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955",
+              "1956", "1957", "1958"],
               datasets: [{
-                  label: "Days",
+                  label: "Regions",
                   borderColor: "#f96332",
                   pointBorderColor: "#FFF",
                   pointBackgroundColor: "#f96332",
@@ -763,7 +764,7 @@ demo = {
                   fill: true,
                   backgroundColor: gradientFill,
                   borderWidth: 2,
-                  data: [2, 3, 3, 10, 13, 7, 10, 20, 28, 32, 7, 3]
+                  data: [1,2,1,1,2,1,2,1,2,1,1,2,4,8,4,7,7,6,9,11,12,9,10,6,9,5]
               }]
           },
           options: gradientChartOptionsConfiguration
@@ -781,11 +782,11 @@ demo = {
       gradientFill.addColorStop(1, hexToRGB('#18ce0f',0.4));
 
       myChart = new Chart(ctx, {
-          type: 'line',
+          type: 'bar',
           data: {
-              labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+              labels: ["1947", "1948", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958"],
               datasets: [{
-                  label: "Average Grade",
+                  label: "Routes",
                   borderColor: "#18ce0f",
                   pointBorderColor: "#FFF",
                   pointBackgroundColor: "#18ce0f",
@@ -796,7 +797,7 @@ demo = {
                   fill: true,
                   backgroundColor: gradientFill,
                   borderWidth: 2,
-                  data: [5.2, 5.4, 5.6, 5.6, 5.7, 5.9, 5.9, 5.8]
+                  data: [14, 20, 20, 15, 44, 36, 45, 14, 63, 6]
               }]
           },
           options: gradientChartOptionsConfiguration
